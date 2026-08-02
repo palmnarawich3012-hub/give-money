@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
     LoadingSubtitle = "palm narawich"
 })
 
-local Tab = Window:CreateTab("Main", 4483362458)
+local Tab = Window:CreateTab("grow a mushroom", 4483362458)
 
 Tab:CreateButton({
     Name = "รับเงิน [กรุณากดรัวๆ]",
