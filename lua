@@ -25,6 +25,5 @@ local args = {
 game:GetService("ReplicatedStorage")
             :WaitForChild("BuySeedRequest")
             :FireServer(unpack(args))
-
   end,
 }]
