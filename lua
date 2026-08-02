@@ -14,7 +14,7 @@ Tab:CreateButton({
         game:GetService("ReplicatedStorage")
             :WaitForChild("AwardTutorialMoney")
             :FireServer()
-    end,
+
 Tab:CreateButton({
     Name = "รับเมล็ดหายาก [กรุณากดรัวๆ]",
     Callback = function()
@@ -23,4 +23,5 @@ local args = {
     0
 }
 game:GetService("ReplicatedStorage"):WaitForChild("BuySeedRequest"):FireServer(unpack(args))
-})
+  end,
+}]
