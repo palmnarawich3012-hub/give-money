@@ -22,6 +22,9 @@ local args = {
     "Magic Mushroom Seed",
     0
 }
-game:GetService("ReplicatedStorage"):WaitForChild("BuySeedRequest"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage")
+            :WaitForChild("BuySeedRequest")
+            :FireServer(unpack(args))
+
   end,
 }]
